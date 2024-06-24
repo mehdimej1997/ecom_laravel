@@ -1,0 +1,11 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "workbench.editor.customLabels.patterns": {
+    "**/components/**/*.tsx": "[${filename}] -> Component",
+    "**/components/**/index.ts": "[${dirname}] -> Index",
+    "**/app/**/*.tsx": "[${dirname}] -> ${filename}"
+  }
+}
