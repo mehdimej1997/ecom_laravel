@@ -1,10 +1,8 @@
 'use client'
 
 import { useMotionValueEvent, useScroll } from 'framer-motion'
-import Image from 'next/image'
 import { useState } from 'react'
 
-import BookhunterLogo from '@/assets/images/bookhunter.png'
 import { Button } from '@/components/ui'
 import { cn } from '@/lib/utils'
 
@@ -29,41 +27,32 @@ export const Navbar = () => {
         <ul className="flex flex-grow flex-nowrap justify-center">
           <li>
             <Button variant={'link'} className="text-tertiary">
-              Affiliates
+              Link 1
             </Button>
           </li>
           <li>
             <Button variant={'link'} className="text-tertiary">
-              Tutorials
+              Link 1
             </Button>
           </li>
           <li>
             <Button variant={'link'} className="text-tertiary">
-              Hunt
-            </Button>
-          </li>
-          <li>
-            <Button variant={'link'} className="text-tertiary">
-              Bulk Hunt
-            </Button>
-          </li>
-          <li>
-            <Button variant={'link'} className="text-tertiary">
-              Bulk Offer
+              Link 2
             </Button>
           </li>
         </ul>
         <div className="flex justify-center">
-          <Image
-            src={BookhunterLogo}
-            alt="bookhunter"
+          {/* <Image
+            src={url}
+            alt="logo"
             width={150}
             height={80}
-          />
+          /> */}
+          LOGO
         </div>
         <ul className="flex flex-grow flex-nowrap justify-center gap-3">
           <li>
-            <Button>Book Flipper Tools</Button>
+            <Button>Mon Espace</Button>
           </li>
           <li>
             <Button variant={'secondary'}>Sign In</Button>
