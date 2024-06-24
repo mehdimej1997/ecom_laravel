@@ -7,5 +7,6 @@
     "**/components/**/*.tsx": "[${filename}] -> Component",
     "**/components/**/index.ts": "[${dirname}] -> Index",
     "**/app/**/*.tsx": "[${dirname}] -> ${filename}"
-  }
+  },
+  "eslint.workingDirectories": ["./web"]
 }
